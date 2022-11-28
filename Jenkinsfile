@@ -11,6 +11,11 @@ pipeline{
         echo 'testing the application..'
       }
     }
+    stage ("run") {
+      steps {
+        echo 'running the application..'
+      }
+    }
   }  
   }
   
